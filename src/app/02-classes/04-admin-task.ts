@@ -25,19 +25,19 @@ interface AdminParams {
  * - generateUuid() (generates next uniq UUID)
  * */
 export function adminTaskApp() {
-  let login: string = "Bob";
-  let passwd: string = "#secret!";
+  let login = 'Bob';
+  let passwd = '#secret!';
 
-  // let admin: Admin = new Admin({
+  // let admin = new Admin({
   //   login: login,
   //   password: passwd
   // });
-  //
+  // //
   // console.assert(admin.uuid == 0);
   // console.assert(admin.getLogin() == login);
-  // login = "kate";
+  // login = 'kate';
   // admin.setLogin(login);
   // console.assert(admin.getLogin() == login);
-  // console.assert(admin.getEncodedPassword() == passwd + "imba!");
-  // console.log("adminTest passed");
+  // console.assert(admin.getEncodedPassword() == passwd + 'imba!');
+  // console.log('adminTest passed');
 }
